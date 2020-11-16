@@ -1,0 +1,27 @@
+//http://localhost:12001/api/dag/component/v2/AssignResource
+
+{
+	"port": 9102,
+	"platformId": "1000",
+	"thriftIP": "standard-collector",
+	"thriftPort": 8103,
+	"ftp": {
+		"host": "100.85.229.102",
+		"port": "5021",
+		"username": "ftpadmin",
+		"password": "zhsq@123456",
+        "workingDirectory": ""
+	},
+	"vehicle": {
+		"saveDirectory": "/home/collect/ftp",
+		"enable": "true"
+	},
+	"access_log": {
+		"saveDirectory": "/home/collect/ftp",
+		"enable": "true"
+	},
+    "face_log": {
+		"saveDirectory": "/home/collect/ftp",
+		"enable": "true"
+	}
+}
